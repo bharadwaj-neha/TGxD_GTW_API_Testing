@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test name="MyTests(failed)">
+    <classes>
+      <class name="com.tgxd.gtw.nameApi.test.NameTest">
+        <methods>
+          <include name="testisDataEmpty_N" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.tgxd.gtw.nameApi.test.NameTest -->
+      <class name="com.tgxd.gtw.nameApi.test.AiringsTest">
+        <methods>
+          <include name="testisDataEmpty_N" invocation-numbers="0 1"/>
+          <include name="testNotNullFields_N" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.tgxd.gtw.nameApi.test.AiringsTest -->
+    </classes>
+  </test> <!-- MyTests(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
