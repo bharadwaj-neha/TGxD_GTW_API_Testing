@@ -4,6 +4,9 @@ public interface Constants {
 		
 		String environment = GeneralUtilities.getEnvironment();
 		
+		String xlsPath = "TestData.xlsx";
+		String nameApiSheet = "Name";
+		
 		String provider = "/2/";
 		
 		String nameName = "/Name/Name/";
