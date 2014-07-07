@@ -15,9 +15,9 @@
 	
   <classes>
    <class name="com.tgxd.gtw.nameApi.test.AiringsTest"/>
-   <!--  <class name = "com.tgxd.gtw.nameApi.test.NameTest" />
+   <class name = "com.tgxd.gtw.nameApi.test.NameTest" />
    <class name="com.tgxd.gtw.nameApi.test.CreditsTest"/>   
-   <class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>-->
+   <class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
   </classes> 
  </test>
  
