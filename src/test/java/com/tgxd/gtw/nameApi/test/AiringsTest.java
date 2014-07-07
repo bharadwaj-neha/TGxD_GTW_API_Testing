@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.tgxd.gtw.nameApi.AiringsActual;
 import com.tgxd.gtw.nameApi.NameResourceUtility;
 import com.tgxd.gtw.utilities.Constants;
+import com.tgxd.gtw.utilities.ExcelUtil;
 import com.tgxd.gtw.utilities.RequestResponseParserUtility;
 
 public class AiringsTest {
@@ -60,13 +61,42 @@ public class AiringsTest {
 		boolean actual=AiringsActual.isNotNull_N(data, dataItem, notNullFields);
 		Assert.assertTrue(actual);
 	}
-
+	
 	@DataProvider(name = "Locale_ServiceIDs")
 	public static Object[][] provideData() {
+		String locale = "null";
+		String serviceID = "null";
+		String celebrityID = "null";
+		Object[] dataObj = null;
+		Object[] dataObj1 = null;
+		Object[] dataObj2 = null;		
+		try {
+			ExcelUtil.setExcelFile(Constants.xlsPath, Constants.nameApiSheet);
+			int totalRows = ExcelUtil.ExcelWSheet.getLastRowNum();
+			
+			for(int i =1; i<=totalRows;i++){
+				locale = ExcelUtil.getCellData(i, 0);
+				serviceID = ExcelUtil.getCellData(i, 1).replaceAll("\\.0*$", "");
+				celebrityID = ExcelUtil.getCellData(i, 2).replaceAll("\\.0*$", "");	
+				dataObj = new Object []{locale,serviceID,celebrityID};
+				
+				switch(i){
+				case 1:
+					dataObj1 = dataObj;
+					break;
+				case 2:
+					dataObj2 = dataObj;
+					break;
+				}
+			}
 
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
 		return new Object[][] { 
-				new Object[] {"en-US","75008","100668"}, 
-				new Object[] {"es-CO","68337","100668"}
+				dataObj1, dataObj2
 		};
 	}
 }
