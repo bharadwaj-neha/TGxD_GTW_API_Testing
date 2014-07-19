@@ -8,17 +8,23 @@
 
  <test name = "NameTests" > 
      
-  <!--<listeners>
-      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-  </listeners>-->
-	
   <classes>
    <class name="com.tgxd.gtw.nameApi.test.AiringsTest"/>
    <class name = "com.tgxd.gtw.nameApi.test.NameTest" />
    <class name="com.tgxd.gtw.nameApi.test.CreditsTest"/>   
    <class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
   </classes> 
+ </test>
+ 
+ <test name= "ProgramTests">
+ 
+ 	<classes>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
+	 </classes>
  </test>
  
 </suite>
