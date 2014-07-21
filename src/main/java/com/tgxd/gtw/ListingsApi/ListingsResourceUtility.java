@@ -12,7 +12,8 @@ public class ListingsResourceUtility {
 	
 	public static String getChannelLogoResourceResponse(String locale,String source,String provider,String serviceID,String size)
 	{
-		String resourceIdentifier="http://qa-g.ceidd.net/Puma/"+locale+"/Listing/GetChannelLogo/"+source+"/"+provider+"/"+serviceID+size;
+		String resourceIdentifier="http://qa-g.ceidd.net/Puma/"+locale+"/Listing/GetChannelLogo/"+source+"/"+provider+"/"+serviceID+"/"+size;
+		System.out.println("Resource Identifier:"+resourceIdentifier);
 		return RequestResponseParserUtility.response_GET(resourceIdentifier);
 	}
 	
