@@ -4,7 +4,7 @@ import com.tgxd.gtw.utilities.RequestResponseParserUtility;
 
 public class ListingsResourceUtility {
 
-	public static String getChannelLineUpsResourceResponse(String locale,int msoID,String postalCode,String countryCode)
+	public static String getChannelLineUpsResourceResponse(String locale,String msoID,String postalCode,String countryCode)
 	{
 		String resourceIdentifier="http://qa-g.ceidd.net/Puma/"+locale+"/Listing/GetChannelLineUps?msoId="+msoID+"&postalCode="+postalCode+"&countryCode="+countryCode;
 		return RequestResponseParserUtility.response_GET(resourceIdentifier);

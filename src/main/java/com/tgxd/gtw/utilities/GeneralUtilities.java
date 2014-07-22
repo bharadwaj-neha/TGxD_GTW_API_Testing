@@ -71,6 +71,37 @@ public class GeneralUtilities {
 
 	}
 
+	
+	public static boolean verifyLocalesInUrl(JSONObject data, String dataItem, String [] urlList){
+
+		int flag = 0;
+		if(data != null){
+
+			JSONArray itemArray = (JSONArray)data.get(dataItem);
+			if(itemArray != null){							
+				int element =generateRandomNumber(itemArray.size()); 
+				JSONObject obj = (JSONObject) itemArray.get(element);
+				for(int i=0; i< urlList.length; i++){				
+					if((String)obj.get(obj.get(urlList[i])) != ""){
+						flag ++;
+					}
+					else{
+						break;
+					}
+
+				}		
+			}
+		}
+		if(flag == urlList.length){
+			return true;
+		}
+		else{
+			return false;	
+		}		
+
+	}
+
+	
 	public static String getEnvironment() {
 
 		Properties prop = new Properties();

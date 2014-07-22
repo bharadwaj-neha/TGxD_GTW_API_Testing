@@ -47,8 +47,7 @@ public class ListingsGetChannelLogoTest {
  
 		return new Object[][] { 
 			new Object[] {"en-US","1280","25","75008","2"}, 
-		    new Object[] {"es-US","1280","25","73625","2"}
-			
+		    new Object[] {"es-US","1280","25","73625","2"}	
 		};
 	}
 
