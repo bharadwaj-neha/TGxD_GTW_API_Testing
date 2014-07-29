@@ -18,11 +18,11 @@ public class ListingsGetChannelLogoTest {
     
     private void getStatusAndData(String locale,String source,String provider,String serviceID,String size) {
 		String response=ListingsResourceUtility.getChannelLogoResourceResponse(locale, source, provider, serviceID, size);
-		System.out.println("Response is:"+response);
+		//System.out.println("Response is:"+response);
 		status=RequestResponseParserUtility.parseResponseStatus(response);
-		System.out.println("Status is"+status);
+		//System.out.println("Status is"+status);
 	    data=ListingGetChannelLogoActual.getData(response);
-	    System.out.println("Data"+data);
+	    //System.out.println("Data"+data);
 	    
 	}
     

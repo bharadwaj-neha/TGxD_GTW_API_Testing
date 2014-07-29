@@ -34,7 +34,7 @@ public class AiringsTest {
 	}
 
 	//Verify 'SericeID' is equal to service ID of request   
-	@Test(dataProvider="Locale_ServiceIDs")
+	//@Test(dataProvider="Locale_ServiceIDs")
 	public void testServiceID(String locale,String serviceID, String celebrityID)
 	{
 		getStatusAndData(locale, serviceID, celebrityID);
@@ -52,7 +52,7 @@ public class AiringsTest {
     }	
 
 	//Verify Data, Programs, TuneUrl, Id and Title should not be null
-	@Test(dataProvider ="Locale_ServiceIDs")
+	//@Test(dataProvider ="Locale_ServiceIDs")
 	public void testNotNullFields_N(String locale, String serviceID, String celebrityID)
 	{
 		String [] notNullFields = {"title","TuneUrl","Id"};

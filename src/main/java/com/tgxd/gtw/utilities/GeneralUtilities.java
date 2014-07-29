@@ -8,6 +8,8 @@ import java.util.Properties;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import com.tgxd.gtw.ListingsApi.ListingsResourceUtility;
+
 public class GeneralUtilities {
 
 	public static int generateRandomNumber(int itemArraySize)
@@ -128,6 +130,12 @@ public class GeneralUtilities {
 		}
 		return env;
 	}
-
+	
+	public static String getServerDateAndTime(){
+		String response=ListingsResourceUtility.getServerUTCInfoResourceResponse(Constants.defaultLocale);
+		JSONObject data=RequestResponseParserUtility.parseResponseData(response);
+		String currentDateTime=(String)data.get("CurrentDateTime");
+		return currentDateTime.replaceAll(" ", "%20");
+	}
 
 }

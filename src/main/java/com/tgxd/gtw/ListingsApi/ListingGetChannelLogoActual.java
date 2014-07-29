@@ -15,7 +15,7 @@ public class ListingGetChannelLogoActual {
 		String[] data;
 			
 		data=response.split("Data");
-		System.out.println("Data is"+data[1]);
+		//System.out.println("Data is"+data[1]);
 
 		return data[1];
 	}

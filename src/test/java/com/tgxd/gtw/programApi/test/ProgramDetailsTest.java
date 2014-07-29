@@ -43,9 +43,9 @@ public class ProgramDetailsTest {
     {
     	getStatusAndData(locale, programID,provider,serviceID);
     	String actual=ProgramDetailsActual.getProgramId(data);
-    	System.out.println("Actual data is:"+actual);
+    	//System.out.println("Actual data is:"+actual);
     	String expected=programID;
-    	System.out.println("Expected data is:"+expected);
+    	//System.out.println("Expected data is:"+expected);
     	Assert.assertEquals(actual, expected);
     }
     

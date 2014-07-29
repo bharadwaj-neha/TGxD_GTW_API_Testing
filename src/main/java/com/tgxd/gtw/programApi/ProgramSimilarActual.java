@@ -42,12 +42,12 @@ public class ProgramSimilarActual {
 	{
 		String serviceId="";
 		JSONArray itemArray = (JSONArray)data.get("Programs");		
-		System.out.println("Item Array Size:"+itemArray.size());
+		//System.out.println("Item Array Size:"+itemArray.size());
 		int element = GeneralUtilities.generateRandomNumber(itemArray.size());
-		System.out.println("Random number generated is:"+element);
+		//System.out.println("Random number generated is:"+element);
 		JSONObject obj = (JSONObject) itemArray.get(element);		
 		serviceId=(String)obj.get("ServiceId");
-		System.out.println("Service id is"+serviceId);
+		//System.out.println("Service id is"+serviceId);
 
 		return serviceId;
 	}

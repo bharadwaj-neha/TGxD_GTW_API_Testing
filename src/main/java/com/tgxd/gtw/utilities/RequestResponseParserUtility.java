@@ -17,7 +17,6 @@ public class RequestResponseParserUtility {
 			return data;
 		}
 
-
 		public static JSONObject parseResponseStatus(String response)
 		{
 			JSONObject jsonObject = getResponse(response);

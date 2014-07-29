@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  ListingTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ListingTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 28 12:39:31 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15818 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest<br>Parameters: en-US</td>
+<td></td>
+<td>1</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest<br>Parameters: es-CO</td>
+<td></td>
+<td>1</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest<br>Parameters: en-US, 73625</td>
+<td></td>
+<td>1</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest<br>Parameters: es-US, 75008</td>
+<td></td>
+<td>3</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest<br>Parameters: en-US, 25, 91504, US</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6f5dab79</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest<br>Parameters: en-US, 1280, 25, 75008, 2</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest<br>Parameters: es-US, 1280, 25, 73625, 2</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest<br>Parameters: en-US</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest.testgetStatus()'><b>testgetStatus</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest<br>Parameters: es-CO</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest<br>Parameters: en-US</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest<br>Parameters: es-CO</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest<br>Parameters: en-US, 73625</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest<br>Parameters: es-US, 75008</td>
+<td></td>
+<td>3</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest<br>Parameters: en-US, 25, 91504, US</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6f5dab79</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest<br>Parameters: en-US, 1280, 25, 75008, 2</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest<br>Parameters: es-US, 1280, 25, 73625, 2</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest<br>Parameters: en-US</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a</td></tr>
+<tr>
+<td title='com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest.testisDataEmpty_N()'><b>testisDataEmpty_N</b><br>Test class: com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest<br>Parameters: es-CO</td>
+<td></td>
+<td>0</td>
+<td>com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a</td></tr>
+</table><p>
+</body>
+</html>

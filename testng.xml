@@ -1,4 +1,4 @@
-<suite name = "TGxd Test Suite" parallel="classes" thread-count="5">
+<suite name = "TGxd Test Suite" parallel="classes" thread-count="10">
   
    	<groups>
 	<run>
@@ -24,7 +24,22 @@
  		<class name="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
  		<class name="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
  		<class name="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
+ 		<class name="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/>
+ 		   
 	 </classes>
  </test>
+ 
+<test name="ListingTests">
+    <classes>
+        <class name="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest"/>
+        <class name="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest"/>
+        <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest"/>
+        <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest"/>
+        <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>
+        
+    </classes>
+</test>
  
 </suite>

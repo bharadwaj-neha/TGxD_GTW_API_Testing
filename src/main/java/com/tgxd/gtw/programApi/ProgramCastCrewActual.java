@@ -21,12 +21,12 @@ public class ProgramCastCrewActual {
 	{
 		String programId="";
 		JSONArray itemArray = (JSONArray)data.get("Names");		
-		System.out.println("Item Array Size:"+itemArray.size());
+		//System.out.println("Item Array Size:"+itemArray.size());
 		int element = GeneralUtilities.generateRandomNumber(itemArray.size());
-		System.out.println("Random number generated is:"+element);
+		//System.out.println("Random number generated is:"+element);
 		JSONObject obj = (JSONObject) itemArray.get(element);		
 		String NameIs=(String)obj.get("Name");
-		System.out.println("Name is:"+NameIs);
+		//System.out.println("Name is:"+NameIs);
 		programId=(String)obj.get("ProgramId");		
 
 		return programId;

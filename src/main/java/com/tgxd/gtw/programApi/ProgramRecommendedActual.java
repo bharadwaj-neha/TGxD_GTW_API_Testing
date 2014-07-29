@@ -39,19 +39,19 @@ public class ProgramRecommendedActual {
 			itemArray = (JSONArray)data.get("ContentInfoLists");		
 			int element = GeneralUtilities.generateRandomNumber(itemArray.size());
 			obj = (JSONObject) itemArray.get(element);
-			System.out.println("Element is"+obj);
+			//System.out.println("Element is"+obj);
 		
 			JSONArray SelectList=(JSONArray)obj.get("SelectList");
-			System.out.println("#####"+SelectList);
+			//System.out.println("#####"+SelectList);
 			if(SelectList==null)
 			{
-				System.out.println("Select List is empty");
+				//System.out.println("Select List is empty");
 				isSelectEmpty=true;
 				
 			}
 			else
 			{
-				System.out.println("Select list is not empty");
+				//System.out.println("Select list is not empty");
 				isSelectEmpty=false;
 			}
 			

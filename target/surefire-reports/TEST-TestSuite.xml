@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="16.452" tests="22" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="48.939" tests="85" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="23.25-b01"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -15,72 +15,134 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/ssehgal/git/TGxD_GTW_API_Testing"/>
-    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="user.dir" value="/Users/nbharadwaj/git/TGxD_GTW_API_Testing"/>
+    <property name="java.runtime.version" value="1.7.0_25-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/75/v0pt5jps5j91tjwq4w_dx7_hwqc2v8/T/"/>
+    <property name="java.io.tmpdir" value="/var/folders/05/mbkrbhm970l89pp_xkpwvszr0pjfb1/T/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/ssehgal/Documents/workspace11/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf618403439933880686.tmp"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/ssehgal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="classworlds.conf" value="/Users/nbharadwaj/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf8381780055507187562.tmp"/>
+    <property name="sun.jnu.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/nbharadwaj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.9"/>
+    <property name="os.version" value="10.8.5"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/ssehgal"/>
+    <property name="user.home" value="/Users/nbharadwaj"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="US-ASCII"/>
-    <property name="user.name" value="ssehgal"/>
-    <property name="java.class.path" value="/Applications/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="user.name" value="nbharadwaj"/>
+    <property name="java.class.path" value="/Users/nbharadwaj/Documents/adt-bundle-mac-x86_64-20131030/eclipse/configuration/org.eclipse.osgi/bundles/371/1/.cp/jars/plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.7.0_51"/>
-    <property name="java.ext.dirs" value="/Users/ssehgal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="/Users/nbharadwaj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/ssehgal/git/TGxD_GTW_API_Testing/EMBEDDED"/>
+    <property name="maven.home" value="/Users/nbharadwaj/git/TGxD_GTW_API_Testing/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="maven.bootclasspath" value="/Applications/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.94"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.405"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.387"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.313"/>
-  <testcase name="testServiceIDPresentInURL" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.805"/>
-  <testcase name="testServiceIDPresentInURL" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.729"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.702"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.732"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.707"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.731"/>
-  <testcase name="testServiceIDInURLs" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="2.066"/>
-  <testcase name="testServiceIDInURLs" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="1.045"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.708"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.435"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.444"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.451"/>
-  <testcase name="testServiceID" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="1.133"/>
-  <testcase name="testServiceID" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.731"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.919"/>
-  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.733"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.71"/>
-  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.626"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.811"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.466"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.381"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.AiringsTest" time="0.307"/>
+  <testcase name="testServiceIDPresentInURL" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.911"/>
+  <testcase name="testServiceIDPresentInURL" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.73"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.69"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.837"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.NameTest" time="0.686"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.NameTest" time="1.165"/>
+  <testcase name="testServiceIDInURLs" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.63"/>
+  <testcase name="testServiceIDInURLs" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.663"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.637"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.473"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.43"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.CreditsTest" time="0.508"/>
+  <testcase name="testServiceID" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.702"/>
+  <testcase name="testServiceID" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.606"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.708"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.773"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.704"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.nameApi.test.GetFavouritesTest" time="0.731"/>
+  <testcase name="testServiceId" classname="com.tgxd.gtw.programApi.test.ProgramAiringsTest" time="0.974"/>
+  <testcase name="testServiceId" classname="com.tgxd.gtw.programApi.test.ProgramAiringsTest" time="0.627"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramAiringsTest" time="0.73"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramAiringsTest" time="0.624"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramAiringsTest" time="0.626"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramAiringsTest" time="0.627"/>
+  <testcase name="testProgramId" classname="com.tgxd.gtw.programApi.test.ProgramCastCrewTest" time="0.304"/>
+  <testcase name="testProgramId" classname="com.tgxd.gtw.programApi.test.ProgramCastCrewTest" time="0.478"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramCastCrewTest" time="0.302"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramCastCrewTest" time="0.388"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramCastCrewTest" time="0.318"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramCastCrewTest" time="0.426"/>
+  <testcase name="testProgramId" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.371"/>
+  <testcase name="testProgramId" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.349"/>
+  <testcase name="testProgramId" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.541"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.365"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.348"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.532"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.37"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.367"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramDetailsTest" time="0.588"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest" time="0.29"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest" time="0.292"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest" time="0.296"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest" time="0.291"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest" time="0.394"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest" time="0.313"/>
+  <testcase name="testServiceId" classname="com.tgxd.gtw.programApi.test.ProgramSimilarTest" time="0.538"/>
+  <testcase name="testServiceId" classname="com.tgxd.gtw.programApi.test.ProgramSimilarTest" time="0.479"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramSimilarTest" time="0.39"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramSimilarTest" time="0.428"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramSimilarTest" time="0.408"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramSimilarTest" time="0.422"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest" time="0.36"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest" time="0.353"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest" time="0.338"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest" time="0.414"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest" time="0.357"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest" time="0.29"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest" time="0.334"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest" time="0.28"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramRecommendTest" time="0.271"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.programApi.test.ProgramRecommendTest" time="0.264"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramRecommendTest" time="0.259"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.programApi.test.ProgramRecommendTest" time="0.263"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest" time="1.199"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest" time="1.201"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest" time="0.626"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest" time="0.626"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest" time="1.914"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest" time="3.238"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest" time="0.982"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest" time="3.004"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest" time="0.299"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest" time="0.374"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest" time="0.313"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest" time="0.313"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest" time="0.272"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest" time="0.354"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest" time="0.313"/>
+  <testcase name="testgetStatus" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest" time="0.261"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest" time="0.259"/>
+  <testcase name="testisDataEmpty_N" classname="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest" time="0.263"/>
 </testsuite>
