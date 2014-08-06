@@ -1,3 +1,4 @@
+/*
 package com.tgxd.gtw.aboutApi.test;
 
 import org.testng.annotations.DataProvider;
@@ -36,4 +37,4 @@ public class ThirdPartyLicenseTermsTest {
    		};
    	}	
 	
-}
+}*/

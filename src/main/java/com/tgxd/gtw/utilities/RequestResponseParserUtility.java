@@ -35,6 +35,7 @@ public class RequestResponseParserUtility {
 		
 		public static String response_POST(String resourceIdentifer,String postData){
 			Client client = Client.create();
+			//Client client = ClientBuilder.newClient();
 			WebResource webResource = client.resource(resourceIdentifer);
 			ClientResponse response = webResource.type("application/json").post(ClientResponse.class, postData);
 			String output = response.getEntity(String.class);

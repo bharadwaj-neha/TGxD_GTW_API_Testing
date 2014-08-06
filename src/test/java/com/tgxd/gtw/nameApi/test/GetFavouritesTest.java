@@ -73,16 +73,6 @@ public class GetFavouritesTest {
 		Assert.assertTrue(actual);			
 	}
 
-	/*@DataProvider(name = "Locale_ServiceIDs")
-	public static Object[][] provideData() {
-
-		return new Object[][] { 
-				new Object[] {"en-US","75008"}, 
-				new Object[] {"es-CO","68337"}
-		};
-	}*/
-	
-	
 	@DataProvider(name = "Locale_ServiceIDs")
 	public static Object[][] provideData() {
 		String locale = "null";

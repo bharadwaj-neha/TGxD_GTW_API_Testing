@@ -1,4 +1,8 @@
+/*
 package com.tgxd.gtw.aboutApi.test;
+
+
+
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -48,3 +52,4 @@ public class PrivacyPolicyTest {
    		};
    	}
 }
+*/

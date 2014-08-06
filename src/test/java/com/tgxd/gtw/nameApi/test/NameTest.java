@@ -15,7 +15,7 @@ public class NameTest {
 	    
 		private JSONObject status;
 	    private JSONObject data;
-	    
+
 		private void getStatusAndData(String locale, String serviceID,String celebrityID) {
 			String response=NameResourceUtility.getNameResourceResponse(locale,serviceID,celebrityID,Constants.nameName);
 			status=RequestResponseParserUtility.parseResponseStatus(response);
@@ -140,6 +140,5 @@ public class NameTest {
 					dataObj1, dataObj2
 			};
 		}
-	    
 
 }

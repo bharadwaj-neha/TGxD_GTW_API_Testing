@@ -1,56 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="85" passed="85">
+<testng-results skipped="0" failed="0" total="106" passed="106">
   <reporter-output>
   </reporter-output>
-  <suite name="TGxd Test Suite" duration-ms="49976" started-at="2014-07-28T12:38:57Z" finished-at="2014-07-28T12:39:47Z">
+  <suite name="TGxd Test Suite" duration-ms="81924" started-at="2014-08-06T14:45:44Z" finished-at="2014-08-06T14:47:06Z">
     <groups>
       <group name="Sanity">
-        <method signature="AiringsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.AiringsTest@53b2df13]" name="testgetStatus" class="com.tgxd.gtw.nameApi.test.AiringsTest"/>
-        <method signature="AiringsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.AiringsTest@53b2df13]" name="testisDataEmpty_N" class="com.tgxd.gtw.nameApi.test.AiringsTest"/>
-        <method signature="CreditsTest.testServiceIDInURLs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testServiceIDInURLs" class="com.tgxd.gtw.nameApi.test.CreditsTest"/>
-        <method signature="CreditsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testgetStatus" class="com.tgxd.gtw.nameApi.test.CreditsTest"/>
-        <method signature="CreditsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testisDataEmpty_N" class="com.tgxd.gtw.nameApi.test.CreditsTest"/>
-        <method signature="GetFavouritesTest.testServiceID(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testServiceID" class="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
-        <method signature="GetFavouritesTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testgetStatus" class="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
-        <method signature="GetFavouritesTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testisDataEmpty_N" class="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
-        <method signature="NameTest.testServiceIDPresentInURL(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testServiceIDPresentInURL" class="com.tgxd.gtw.nameApi.test.NameTest"/>
-        <method signature="NameTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testgetStatus" class="com.tgxd.gtw.nameApi.test.NameTest"/>
-        <method signature="NameTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testisDataEmpty_N" class="com.tgxd.gtw.nameApi.test.NameTest"/>
-        <method signature="ProgramAiringsTest.testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testServiceId" class="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
-        <method signature="ProgramAiringsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
-        <method signature="ProgramAiringsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
-        <method signature="ProgramCastCrewTest.testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testProgramId" class="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
-        <method signature="ProgramCastCrewTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
-        <method signature="ProgramCastCrewTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
-        <method signature="ProgramDetailsTest.testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testProgramId" class="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
-        <method signature="ProgramDetailsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
-        <method signature="ProgramDetailsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
-        <method signature="ProgramGetFavouriteProgramTilesTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@213c7aef]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
-        <method signature="ProgramGetFavouriteProgramTilesTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@213c7aef]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
-        <method signature="ProgramGetFilteredProgramTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
-        <method signature="ProgramGetFilteredProgramTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
-        <method signature="ProgramGetGenreListTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@699d7f6d]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
-        <method signature="ProgramGetGenreListTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@699d7f6d]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
-        <method signature="ProgramRecommendTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@6ea079d0]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/>
-        <method signature="ProgramRecommendTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@6ea079d0]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/>
-        <method signature="ProgramSimilarTest.testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testServiceId" class="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
-        <method signature="ProgramSimilarTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
-        <method signature="ProgramSimilarTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
-        <method signature="ListingFavouriteChannelThumbnailTest.testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest"/>
-        <method signature="ListingFavouriteChannelThumbnailTest.testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest"/>
-        <method signature="ListingServiceDetailsTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest"/>
-        <method signature="ListingServiceDetailsTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest"/>
-        <method signature="ListingsGetChannelLineUpsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6f5dab79]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest"/>
-        <method signature="ListingsGetChannelLineUpsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6f5dab79]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest"/>
-        <method signature="ListingsGetChannelLogoTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest"/>
-        <method signature="ListingsGetChannelLogoTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest"/>
-        <method signature="ListingsGetServerUtcInfoTest.testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>
-        <method signature="ListingsGetServerUtcInfoTest.testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>
+        <method signature="ProgramAiringsTest.testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testServiceId" class="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
+        <method signature="ProgramAiringsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
+        <method signature="ProgramAiringsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
+        <method signature="ProgramCastCrewTest.testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testProgramId" class="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
+        <method signature="ProgramCastCrewTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
+        <method signature="ProgramCastCrewTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
+        <method signature="ProgramDetailsTest.testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testProgramId" class="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
+        <method signature="ProgramDetailsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
+        <method signature="ProgramDetailsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
+        <method signature="ProgramGetFavouriteProgramTilesTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@3e72d5c0]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
+        <method signature="ProgramGetFavouriteProgramTilesTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@3e72d5c0]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
+        <method signature="ProgramGetFilteredProgramTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
+        <method signature="ProgramGetFilteredProgramTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
+        <method signature="ProgramGetGenreListTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@512f0124]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
+        <method signature="ProgramGetGenreListTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@512f0124]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
+        <method signature="ProgramRecommendTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@5e406eac]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/>
+        <method signature="ProgramRecommendTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@5e406eac]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/>
+        <method signature="ProgramSimilarTest.testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testServiceId" class="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
+        <method signature="ProgramSimilarTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testgetStatus" class="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
+        <method signature="ProgramSimilarTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testisDataEmpty_N" class="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
+        <method signature="ListingFavouriteChannelThumbnailTest.testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ba52c90]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest"/>
+        <method signature="ListingFavouriteChannelThumbnailTest.testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ba52c90]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest"/>
+        <method signature="ListingServiceDetailsTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@f7000ed]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest"/>
+        <method signature="ListingServiceDetailsTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@f7000ed]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest"/>
+        <method signature="ListingsGetChannelLineUpsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6ee3572b]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest"/>
+        <method signature="ListingsGetChannelLineUpsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6ee3572b]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest"/>
+        <method signature="ListingsGetChannelLogoTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@24ccf86]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest"/>
+        <method signature="ListingsGetChannelLogoTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@24ccf86]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest"/>
+        <method signature="ListingsGetServerUtcInfoTest.testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@cc6798]" name="testgetStatus" class="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>
+        <method signature="ListingsGetServerUtcInfoTest.testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@cc6798]" name="testisDataEmpty_N" class="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>
+        <method signature="SearchAutoSuggestTest.testQueryValueNotPresentInResults_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testQueryValueNotPresentInResults_N" class="com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest"/>
+        <method signature="SearchAutoSuggestTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testgetStatus" class="com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest"/>
+        <method signature="SearchAutoSuggestTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testisDataEmpty_N" class="com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest"/>
+        <method signature="SearchProgramInfoTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest@6fb75649]" name="testgetStatus" class="com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest"/>
+        <method signature="SearchProgramInfoTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest@6fb75649]" name="testisDataEmpty_N" class="com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest"/>
+        <method signature="SearchResultsTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchResultsTest@65693ccc]" name="testgetStatus" class="com.tgxd.gtw.SearchApi.test.SearchResultsTest"/>
+        <method signature="SearchResultsTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchResultsTest@65693ccc]" name="testisDataEmpty_N" class="com.tgxd.gtw.SearchApi.test.SearchResultsTest"/>
+        <method signature="AdminGetAllMSOProfileTest.testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testgetStatus" class="com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest"/>
+        <method signature="AdminGetAllMSOProfileTest.testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testisDataEmpty_N" class="com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest"/>
+        <method signature="AdminGetMSOAppConfigTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testgetStatus" class="com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest"/>
+        <method signature="AdminGetMSOAppConfigTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testisDataEmpty_N" class="com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest"/>
+        <method signature="GetScheduleTest.testNotNullFieldsforChannel_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testNotNullFieldsforChannel_N" class="com.tgxd.gtw.serviceApi.test.GetScheduleTest"/>
+        <method signature="GetScheduleTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testgetStatus" class="com.tgxd.gtw.serviceApi.test.GetScheduleTest"/>
+        <method signature="GetScheduleTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testisDataEmpty_N" class="com.tgxd.gtw.serviceApi.test.GetScheduleTest"/>
+        <method signature="GetSourceScheduleTest.testNotNullFieldsforChannel_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testNotNullFieldsforChannel_N" class="com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest"/>
+        <method signature="GetSourceScheduleTest.testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testgetStatus" class="com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest"/>
+        <method signature="GetSourceScheduleTest.testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testisDataEmpty_N" class="com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest"/>
+        <method signature="AccountAuthenticateTest.testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.accountApi.test.AccountAuthenticateTest@147e668d]" name="testgetStatus" class="com.tgxd.gtw.accountApi.test.AccountAuthenticateTest"/>
+        <method signature="AccountCreateTest.testNotNullFieldsforChannel_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.accountApi.test.AccountCreateTest@5ae1a690]" name="testNotNullFieldsforChannel_N" class="com.tgxd.gtw.accountApi.test.AccountCreateTest"/>
       </group>
     </groups>
-    <test name="ProgramTests" duration-ms="18601" started-at="2014-07-28T12:39:13Z" finished-at="2014-07-28T12:39:31Z">
+    <test name="ProgramTests" duration-ms="19162" started-at="2014-08-06T14:45:44Z" finished-at="2014-08-06T14:46:03Z">
       <class name="com.tgxd.gtw.programApi.test.ProgramAiringsTest">
-        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testServiceId" duration-ms="974" started-at="2014-07-28T12:39:13Z" finished-at="2014-07-28T12:39:14Z">
+        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testServiceId" duration-ms="1059" started-at="2014-08-06T14:45:44Z" finished-at="2014-08-06T14:45:45Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +82,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testServiceId" duration-ms="627" started-at="2014-07-28T12:39:14Z" finished-at="2014-07-28T12:39:14Z">
+        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testServiceId" duration-ms="614" started-at="2014-08-06T14:45:45Z" finished-at="2014-08-06T14:45:46Z">
           <params>
             <param index="0">
               <value>
@@ -98,7 +106,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testgetStatus" duration-ms="730" started-at="2014-07-28T12:39:14Z" finished-at="2014-07-28T12:39:15Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testgetStatus" duration-ms="602" started-at="2014-08-06T14:45:46Z" finished-at="2014-08-06T14:45:46Z">
           <params>
             <param index="0">
               <value>
@@ -122,7 +130,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testgetStatus" duration-ms="624" started-at="2014-07-28T12:39:15Z" finished-at="2014-07-28T12:39:15Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testgetStatus" duration-ms="559" started-at="2014-08-06T14:45:46Z" finished-at="2014-08-06T14:45:47Z">
           <params>
             <param index="0">
               <value>
@@ -146,7 +154,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testisDataEmpty_N" duration-ms="626" started-at="2014-07-28T12:39:15Z" finished-at="2014-07-28T12:39:16Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testisDataEmpty_N" duration-ms="625" started-at="2014-08-06T14:45:47Z" finished-at="2014-08-06T14:45:47Z">
           <params>
             <param index="0">
               <value>
@@ -170,7 +178,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@1ed6ecc2]" name="testisDataEmpty_N" duration-ms="626" started-at="2014-07-28T12:39:16Z" finished-at="2014-07-28T12:39:17Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramAiringsTest@652f5047]" name="testisDataEmpty_N" duration-ms="567" started-at="2014-08-06T14:45:47Z" finished-at="2014-08-06T14:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -196,7 +204,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.programApi.test.ProgramDetailsTest">
-        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testProgramId" duration-ms="372" started-at="2014-07-28T12:39:19Z" finished-at="2014-07-28T12:39:19Z">
+        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testProgramId" duration-ms="393" started-at="2014-08-06T14:45:50Z" finished-at="2014-08-06T14:45:51Z">
           <params>
             <param index="0">
               <value>
@@ -220,7 +228,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testProgramId" duration-ms="349" started-at="2014-07-28T12:39:19Z" finished-at="2014-07-28T12:39:20Z">
+        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testProgramId" duration-ms="366" started-at="2014-08-06T14:45:51Z" finished-at="2014-08-06T14:45:51Z">
           <params>
             <param index="0">
               <value>
@@ -244,7 +252,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testProgramId" duration-ms="541" started-at="2014-07-28T12:39:20Z" finished-at="2014-07-28T12:39:20Z">
+        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testProgramId" duration-ms="523" started-at="2014-08-06T14:45:51Z" finished-at="2014-08-06T14:45:52Z">
           <params>
             <param index="0">
               <value>
@@ -268,7 +276,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testgetStatus" duration-ms="365" started-at="2014-07-28T12:39:20Z" finished-at="2014-07-28T12:39:21Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testgetStatus" duration-ms="396" started-at="2014-08-06T14:45:52Z" finished-at="2014-08-06T14:45:52Z">
           <params>
             <param index="0">
               <value>
@@ -292,7 +300,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testgetStatus" duration-ms="348" started-at="2014-07-28T12:39:21Z" finished-at="2014-07-28T12:39:21Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testgetStatus" duration-ms="418" started-at="2014-08-06T14:45:52Z" finished-at="2014-08-06T14:45:52Z">
           <params>
             <param index="0">
               <value>
@@ -316,7 +324,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testgetStatus" duration-ms="532" started-at="2014-07-28T12:39:21Z" finished-at="2014-07-28T12:39:21Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testgetStatus" duration-ms="530" started-at="2014-08-06T14:45:52Z" finished-at="2014-08-06T14:45:53Z">
           <params>
             <param index="0">
               <value>
@@ -340,7 +348,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testisDataEmpty_N" duration-ms="370" started-at="2014-07-28T12:39:21Z" finished-at="2014-07-28T12:39:22Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testisDataEmpty_N" duration-ms="340" started-at="2014-08-06T14:45:53Z" finished-at="2014-08-06T14:45:53Z">
           <params>
             <param index="0">
               <value>
@@ -364,7 +372,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testisDataEmpty_N" duration-ms="367" started-at="2014-07-28T12:39:22Z" finished-at="2014-07-28T12:39:22Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testisDataEmpty_N" duration-ms="355" started-at="2014-08-06T14:45:53Z" finished-at="2014-08-06T14:45:54Z">
           <params>
             <param index="0">
               <value>
@@ -388,7 +396,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@63190346]" name="testisDataEmpty_N" duration-ms="588" started-at="2014-07-28T12:39:22Z" finished-at="2014-07-28T12:39:23Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramDetailsTest@1263ec92]" name="testisDataEmpty_N" duration-ms="544" started-at="2014-08-06T14:45:54Z" finished-at="2014-08-06T14:45:54Z">
           <params>
             <param index="0">
               <value>
@@ -398,152 +406,6 @@
             <param index="1">
               <value>
                 <![CDATA[19667621]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-      </class>
-      <class name="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testgetStatus" duration-ms="290" started-at="2014-07-28T12:39:23Z" finished-at="2014-07-28T12:39:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Movie]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testgetStatus" duration-ms="292" started-at="2014-07-28T12:39:23Z" finished-at="2014-07-28T12:39:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tv]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testgetStatus" duration-ms="296" started-at="2014-07-28T12:39:23Z" finished-at="2014-07-28T12:39:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[TvSeries]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testisDataEmpty_N" duration-ms="292" started-at="2014-07-28T12:39:24Z" finished-at="2014-07-28T12:39:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Movie]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testisDataEmpty_N" duration-ms="394" started-at="2014-07-28T12:39:24Z" finished-at="2014-07-28T12:39:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tv]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@3051c45f]" name="testisDataEmpty_N" duration-ms="313" started-at="2014-07-28T12:39:24Z" finished-at="2014-07-28T12:39:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[TvSeries]]>
               </value>
             </param>
             <param index="2">
@@ -560,7 +422,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.programApi.test.ProgramCastCrewTest">
-        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testProgramId" duration-ms="303" started-at="2014-07-28T12:39:17Z" finished-at="2014-07-28T12:39:17Z">
+        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testProgramId" duration-ms="316" started-at="2014-08-06T14:45:48Z" finished-at="2014-08-06T14:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -584,7 +446,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testProgramId" duration-ms="479" started-at="2014-07-28T12:39:17Z" finished-at="2014-07-28T12:39:18Z">
+        <test-method status="PASS" signature="testProgramId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testProgramId" duration-ms="533" started-at="2014-08-06T14:45:48Z" finished-at="2014-08-06T14:45:49Z">
           <params>
             <param index="0">
               <value>
@@ -608,7 +470,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testgetStatus" duration-ms="303" started-at="2014-07-28T12:39:18Z" finished-at="2014-07-28T12:39:18Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testgetStatus" duration-ms="315" started-at="2014-08-06T14:45:49Z" finished-at="2014-08-06T14:45:49Z">
           <params>
             <param index="0">
               <value>
@@ -632,7 +494,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testgetStatus" duration-ms="388" started-at="2014-07-28T12:39:18Z" finished-at="2014-07-28T12:39:18Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testgetStatus" duration-ms="450" started-at="2014-08-06T14:45:49Z" finished-at="2014-08-06T14:45:50Z">
           <params>
             <param index="0">
               <value>
@@ -656,7 +518,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testisDataEmpty_N" duration-ms="318" started-at="2014-07-28T12:39:18Z" finished-at="2014-07-28T12:39:19Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testisDataEmpty_N" duration-ms="325" started-at="2014-08-06T14:45:50Z" finished-at="2014-08-06T14:45:50Z">
           <params>
             <param index="0">
               <value>
@@ -680,7 +542,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@483351c1]" name="testisDataEmpty_N" duration-ms="427" started-at="2014-07-28T12:39:19Z" finished-at="2014-07-28T12:39:19Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramCastCrewTest@53f9937]" name="testisDataEmpty_N" duration-ms="434" started-at="2014-08-06T14:45:50Z" finished-at="2014-08-06T14:45:50Z">
           <params>
             <param index="0">
               <value>
@@ -705,8 +567,154 @@
           </params>
         </test-method>
       </class>
+      <class name="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testgetStatus" duration-ms="381" started-at="2014-08-06T14:45:54Z" finished-at="2014-08-06T14:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Movie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testgetStatus" duration-ms="384" started-at="2014-08-06T14:45:55Z" finished-at="2014-08-06T14:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testgetStatus" duration-ms="374" started-at="2014-08-06T14:45:55Z" finished-at="2014-08-06T14:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TvSeries]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testisDataEmpty_N" duration-ms="368" started-at="2014-08-06T14:45:55Z" finished-at="2014-08-06T14:45:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Movie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testisDataEmpty_N" duration-ms="363" started-at="2014-08-06T14:45:56Z" finished-at="2014-08-06T14:45:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest@23e8f4e1]" name="testisDataEmpty_N" duration-ms="292" started-at="2014-08-06T14:45:56Z" finished-at="2014-08-06T14:45:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TvSeries]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
       <class name="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@699d7f6d]" name="testgetStatus" duration-ms="357" started-at="2014-07-28T12:39:29Z" finished-at="2014-07-28T12:39:29Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@512f0124]" name="testgetStatus" duration-ms="295" started-at="2014-08-06T14:46:01Z" finished-at="2014-08-06T14:46:01Z">
           <params>
             <param index="0">
               <value>
@@ -720,7 +728,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@699d7f6d]" name="testgetStatus" duration-ms="292" started-at="2014-07-28T12:39:29Z" finished-at="2014-07-28T12:39:29Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@512f0124]" name="testgetStatus" duration-ms="291" started-at="2014-08-06T14:46:01Z" finished-at="2014-08-06T14:46:01Z">
           <params>
             <param index="0">
               <value>
@@ -734,7 +742,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@699d7f6d]" name="testisDataEmpty_N" duration-ms="334" started-at="2014-07-28T12:39:29Z" finished-at="2014-07-28T12:39:30Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@512f0124]" name="testisDataEmpty_N" duration-ms="309" started-at="2014-08-06T14:46:01Z" finished-at="2014-08-06T14:46:02Z">
           <params>
             <param index="0">
               <value>
@@ -748,7 +756,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@699d7f6d]" name="testisDataEmpty_N" duration-ms="280" started-at="2014-07-28T12:39:30Z" finished-at="2014-07-28T12:39:30Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetGenreListTest@512f0124]" name="testisDataEmpty_N" duration-ms="307" started-at="2014-08-06T14:46:02Z" finished-at="2014-08-06T14:46:02Z">
           <params>
             <param index="0">
               <value>
@@ -764,7 +772,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.programApi.test.ProgramRecommendTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@6ea079d0]" name="testgetStatus" duration-ms="271" started-at="2014-07-28T12:39:30Z" finished-at="2014-07-28T12:39:30Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@5e406eac]" name="testgetStatus" duration-ms="282" started-at="2014-08-06T14:46:02Z" finished-at="2014-08-06T14:46:02Z">
           <params>
             <param index="0">
               <value>
@@ -778,7 +786,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@6ea079d0]" name="testgetStatus" duration-ms="264" started-at="2014-07-28T12:39:30Z" finished-at="2014-07-28T12:39:31Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@5e406eac]" name="testgetStatus" duration-ms="281" started-at="2014-08-06T14:46:02Z" finished-at="2014-08-06T14:46:03Z">
           <params>
             <param index="0">
               <value>
@@ -792,7 +800,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@6ea079d0]" name="testisDataEmpty_N" duration-ms="260" started-at="2014-07-28T12:39:31Z" finished-at="2014-07-28T12:39:31Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@5e406eac]" name="testisDataEmpty_N" duration-ms="265" started-at="2014-08-06T14:46:03Z" finished-at="2014-08-06T14:46:03Z">
           <params>
             <param index="0">
               <value>
@@ -806,7 +814,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@6ea079d0]" name="testisDataEmpty_N" duration-ms="263" started-at="2014-07-28T12:39:31Z" finished-at="2014-07-28T12:39:31Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramRecommendTest@5e406eac]" name="testisDataEmpty_N" duration-ms="278" started-at="2014-08-06T14:46:03Z" finished-at="2014-08-06T14:46:03Z">
           <params>
             <param index="0">
               <value>
@@ -822,7 +830,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@213c7aef]" name="testgetStatus" duration-ms="360" started-at="2014-07-28T12:39:27Z" finished-at="2014-07-28T12:39:28Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@3e72d5c0]" name="testgetStatus" duration-ms="392" started-at="2014-08-06T14:45:59Z" finished-at="2014-08-06T14:46:00Z">
           <params>
             <param index="0">
               <value>
@@ -836,7 +844,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@213c7aef]" name="testgetStatus" duration-ms="352" started-at="2014-07-28T12:39:28Z" finished-at="2014-07-28T12:39:28Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@3e72d5c0]" name="testgetStatus" duration-ms="388" started-at="2014-08-06T14:46:00Z" finished-at="2014-08-06T14:46:00Z">
           <params>
             <param index="0">
               <value>
@@ -850,7 +858,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@213c7aef]" name="testisDataEmpty_N" duration-ms="338" started-at="2014-07-28T12:39:28Z" finished-at="2014-07-28T12:39:28Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@3e72d5c0]" name="testisDataEmpty_N" duration-ms="363" started-at="2014-08-06T14:46:00Z" finished-at="2014-08-06T14:46:00Z">
           <params>
             <param index="0">
               <value>
@@ -864,7 +872,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@213c7aef]" name="testisDataEmpty_N" duration-ms="413" started-at="2014-07-28T12:39:28Z" finished-at="2014-07-28T12:39:29Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest@3e72d5c0]" name="testisDataEmpty_N" duration-ms="359" started-at="2014-08-06T14:46:00Z" finished-at="2014-08-06T14:46:01Z">
           <params>
             <param index="0">
               <value>
@@ -880,7 +888,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.programApi.test.ProgramSimilarTest">
-        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testServiceId" duration-ms="538" started-at="2014-07-28T12:39:25Z" finished-at="2014-07-28T12:39:25Z">
+        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testServiceId" duration-ms="392" started-at="2014-08-06T14:45:56Z" finished-at="2014-08-06T14:45:57Z">
           <params>
             <param index="0">
               <value>
@@ -904,7 +912,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testServiceId" duration-ms="479" started-at="2014-07-28T12:39:25Z" finished-at="2014-07-28T12:39:26Z">
+        <test-method status="PASS" signature="testServiceId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testServiceId" duration-ms="820" started-at="2014-08-06T14:45:57Z" finished-at="2014-08-06T14:45:58Z">
           <params>
             <param index="0">
               <value>
@@ -928,7 +936,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testgetStatus" duration-ms="390" started-at="2014-07-28T12:39:26Z" finished-at="2014-07-28T12:39:26Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testgetStatus" duration-ms="405" started-at="2014-08-06T14:45:58Z" finished-at="2014-08-06T14:45:58Z">
           <params>
             <param index="0">
               <value>
@@ -952,7 +960,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testgetStatus" duration-ms="428" started-at="2014-07-28T12:39:26Z" finished-at="2014-07-28T12:39:27Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testgetStatus" duration-ms="405" started-at="2014-08-06T14:45:58Z" finished-at="2014-08-06T14:45:58Z">
           <params>
             <param index="0">
               <value>
@@ -976,7 +984,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testisDataEmpty_N" duration-ms="408" started-at="2014-07-28T12:39:27Z" finished-at="2014-07-28T12:39:27Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testisDataEmpty_N" duration-ms="425" started-at="2014-08-06T14:45:58Z" finished-at="2014-08-06T14:45:59Z">
           <params>
             <param index="0">
               <value>
@@ -1000,7 +1008,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@7f261b7d]" name="testisDataEmpty_N" duration-ms="422" started-at="2014-07-28T12:39:27Z" finished-at="2014-07-28T12:39:27Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.programApi.test.ProgramSimilarTest@58220e8b]" name="testisDataEmpty_N" duration-ms="424" started-at="2014-08-06T14:45:59Z" finished-at="2014-08-06T14:45:59Z">
           <params>
             <param index="0">
               <value>
@@ -1026,9 +1034,253 @@
         </test-method>
       </class>
     </test>
-    <test name="ListingTests" duration-ms="15818" started-at="2014-07-28T12:39:31Z" finished-at="2014-07-28T12:39:47Z">
+    <test name="SearchTests" duration-ms="8913" started-at="2014-08-06T14:46:27Z" finished-at="2014-08-06T14:46:36Z">
+      <class name="com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest">
+        <test-method status="PASS" signature="testQueryValueNotPresentInResults_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testQueryValueNotPresentInResults_N" duration-ms="281" started-at="2014-08-06T14:46:27Z" finished-at="2014-08-06T14:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testQueryValueNotPresentInResults_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testQueryValueNotPresentInResults_N" duration-ms="277" started-at="2014-08-06T14:46:28Z" finished-at="2014-08-06T14:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testgetStatus" duration-ms="276" started-at="2014-08-06T14:46:28Z" finished-at="2014-08-06T14:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testgetStatus" duration-ms="283" started-at="2014-08-06T14:46:28Z" finished-at="2014-08-06T14:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testisDataEmpty_N" duration-ms="276" started-at="2014-08-06T14:46:29Z" finished-at="2014-08-06T14:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest@6016a917]" name="testisDataEmpty_N" duration-ms="299" started-at="2014-08-06T14:46:29Z" finished-at="2014-08-06T14:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest@6fb75649]" name="testgetStatus" duration-ms="860" started-at="2014-08-06T14:46:29Z" finished-at="2014-08-06T14:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[friends]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest@6fb75649]" name="testgetStatus" duration-ms="846" started-at="2014-08-06T14:46:30Z" finished-at="2014-08-06T14:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest@6fb75649]" name="testisDataEmpty_N" duration-ms="894" started-at="2014-08-06T14:46:31Z" finished-at="2014-08-06T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[friends]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest@6fb75649]" name="testisDataEmpty_N" duration-ms="751" started-at="2014-08-06T14:46:32Z" finished-at="2014-08-06T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="com.tgxd.gtw.SearchApi.test.SearchResultsTest">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchResultsTest@65693ccc]" name="testgetStatus" duration-ms="1163" started-at="2014-08-06T14:46:32Z" finished-at="2014-08-06T14:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thor]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchResultsTest@65693ccc]" name="testgetStatus" duration-ms="1000" started-at="2014-08-06T14:46:34Z" finished-at="2014-08-06T14:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchResultsTest@65693ccc]" name="testisDataEmpty_N" duration-ms="753" started-at="2014-08-06T14:46:35Z" finished-at="2014-08-06T14:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thor]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.SearchApi.test.SearchResultsTest@65693ccc]" name="testisDataEmpty_N" duration-ms="947" started-at="2014-08-06T14:46:35Z" finished-at="2014-08-06T14:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+    <test name="ListingTests" duration-ms="24194" started-at="2014-08-06T14:46:03Z" finished-at="2014-08-06T14:46:27Z">
       <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b]" name="testgetStatus" duration-ms="313" started-at="2014-07-28T12:39:45Z" finished-at="2014-07-28T12:39:45Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@24ccf86]" name="testgetStatus" duration-ms="297" started-at="2014-08-06T14:46:25Z" finished-at="2014-08-06T14:46:25Z">
           <params>
             <param index="0">
               <value>
@@ -1057,7 +1309,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b]" name="testgetStatus" duration-ms="313" started-at="2014-07-28T12:39:45Z" finished-at="2014-07-28T12:39:45Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@24ccf86]" name="testgetStatus" duration-ms="279" started-at="2014-08-06T14:46:25Z" finished-at="2014-08-06T14:46:26Z">
           <params>
             <param index="0">
               <value>
@@ -1086,7 +1338,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b]" name="testisDataEmpty_N" duration-ms="271" started-at="2014-07-28T12:39:45Z" finished-at="2014-07-28T12:39:46Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@24ccf86]" name="testisDataEmpty_N" duration-ms="280" started-at="2014-08-06T14:46:26Z" finished-at="2014-08-06T14:46:26Z">
           <params>
             <param index="0">
               <value>
@@ -1115,7 +1367,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@5d3f03b]" name="testisDataEmpty_N" duration-ms="354" started-at="2014-07-28T12:39:46Z" finished-at="2014-07-28T12:39:46Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest@24ccf86]" name="testisDataEmpty_N" duration-ms="277" started-at="2014-08-06T14:46:26Z" finished-at="2014-08-06T14:46:26Z">
           <params>
             <param index="0">
               <value>
@@ -1146,7 +1398,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6f5dab79]" name="testgetStatus" duration-ms="299" started-at="2014-07-28T12:39:44Z" finished-at="2014-07-28T12:39:44Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6ee3572b]" name="testgetStatus" duration-ms="285" started-at="2014-08-06T14:46:25Z" finished-at="2014-08-06T14:46:25Z">
           <params>
             <param index="0">
               <value>
@@ -1170,7 +1422,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6f5dab79]" name="testisDataEmpty_N" duration-ms="374" started-at="2014-07-28T12:39:44Z" finished-at="2014-07-28T12:39:45Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest@6ee3572b]" name="testisDataEmpty_N" duration-ms="285" started-at="2014-08-06T14:46:25Z" finished-at="2014-08-06T14:46:25Z">
           <params>
             <param index="0">
               <value>
@@ -1196,7 +1448,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2]" name="testgetStatus" duration-ms="1914" started-at="2014-07-28T12:39:35Z" finished-at="2014-07-28T12:39:37Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@f7000ed]" name="testgetStatus" duration-ms="1691" started-at="2014-08-06T14:46:16Z" finished-at="2014-08-06T14:46:17Z">
           <params>
             <param index="0">
               <value>
@@ -1210,7 +1462,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2]" name="testgetStatus" duration-ms="3237" started-at="2014-07-28T12:39:37Z" finished-at="2014-07-28T12:39:40Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@f7000ed]" name="testgetStatus" duration-ms="2947" started-at="2014-08-06T14:46:17Z" finished-at="2014-08-06T14:46:20Z">
           <params>
             <param index="0">
               <value>
@@ -1224,7 +1476,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2]" name="testisDataEmpty_N" duration-ms="982" started-at="2014-07-28T12:39:40Z" finished-at="2014-07-28T12:39:41Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@f7000ed]" name="testisDataEmpty_N" duration-ms="1043" started-at="2014-08-06T14:46:20Z" finished-at="2014-08-06T14:46:21Z">
           <params>
             <param index="0">
               <value>
@@ -1238,7 +1490,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@46e337b2]" name="testisDataEmpty_N" duration-ms="3004" started-at="2014-07-28T12:39:41Z" finished-at="2014-07-28T12:39:44Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest@f7000ed]" name="testisDataEmpty_N" duration-ms="3145" started-at="2014-08-06T14:46:21Z" finished-at="2014-08-06T14:46:25Z">
           <params>
             <param index="0">
               <value>
@@ -1254,7 +1506,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a]" name="testgetStatus" duration-ms="313" started-at="2014-07-28T12:39:46Z" finished-at="2014-07-28T12:39:46Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@cc6798]" name="testgetStatus" duration-ms="311" started-at="2014-08-06T14:46:26Z" finished-at="2014-08-06T14:46:27Z">
           <params>
             <param index="0">
               <value>
@@ -1263,7 +1515,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a]" name="testgetStatus" duration-ms="261" started-at="2014-07-28T12:39:46Z" finished-at="2014-07-28T12:39:46Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@cc6798]" name="testgetStatus" duration-ms="264" started-at="2014-08-06T14:46:27Z" finished-at="2014-08-06T14:46:27Z">
           <params>
             <param index="0">
               <value>
@@ -1272,7 +1524,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a]" name="testisDataEmpty_N" duration-ms="260" started-at="2014-07-28T12:39:46Z" finished-at="2014-07-28T12:39:47Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@cc6798]" name="testisDataEmpty_N" duration-ms="265" started-at="2014-08-06T14:46:27Z" finished-at="2014-08-06T14:46:27Z">
           <params>
             <param index="0">
               <value>
@@ -1281,7 +1533,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@1d40b47a]" name="testisDataEmpty_N" duration-ms="263" started-at="2014-07-28T12:39:47Z" finished-at="2014-07-28T12:39:47Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest@cc6798]" name="testisDataEmpty_N" duration-ms="268" started-at="2014-08-06T14:46:27Z" finished-at="2014-08-06T14:46:27Z">
           <params>
             <param index="0">
               <value>
@@ -1292,7 +1544,7 @@
         </test-method>
       </class>
       <class name="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d]" name="testgetStatus" duration-ms="1199" started-at="2014-07-28T12:39:31Z" finished-at="2014-07-28T12:39:32Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ba52c90]" name="testgetStatus" duration-ms="3882" started-at="2014-08-06T14:46:03Z" finished-at="2014-08-06T14:46:07Z">
           <params>
             <param index="0">
               <value>
@@ -1301,7 +1553,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d]" name="testgetStatus" duration-ms="1200" started-at="2014-07-28T12:39:32Z" finished-at="2014-07-28T12:39:34Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ba52c90]" name="testgetStatus" duration-ms="3245" started-at="2014-08-06T14:46:07Z" finished-at="2014-08-06T14:46:10Z">
           <params>
             <param index="0">
               <value>
@@ -1310,7 +1562,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d]" name="testisDataEmpty_N" duration-ms="626" started-at="2014-07-28T12:39:34Z" finished-at="2014-07-28T12:39:34Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ba52c90]" name="testisDataEmpty_N" duration-ms="1313" started-at="2014-08-06T14:46:10Z" finished-at="2014-08-06T14:46:12Z">
           <params>
             <param index="0">
               <value>
@@ -1319,7 +1571,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ea4ce0d]" name="testisDataEmpty_N" duration-ms="626" started-at="2014-07-28T12:39:34Z" finished-at="2014-07-28T12:39:35Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest@6ba52c90]" name="testisDataEmpty_N" duration-ms="4108" started-at="2014-08-06T14:46:12Z" finished-at="2014-08-06T14:46:16Z">
           <params>
             <param index="0">
               <value>
@@ -1330,9 +1582,9 @@
         </test-method>
       </class>
     </test>
-    <test name="NameTests" duration-ms="15475" started-at="2014-07-28T12:38:57Z" finished-at="2014-07-28T12:39:12Z">
-      <class name="com.tgxd.gtw.nameApi.test.AiringsTest">
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.AiringsTest@53b2df13]" name="testgetStatus" duration-ms="811" started-at="2014-07-28T12:38:58Z" finished-at="2014-07-28T12:38:58Z">
+    <test name="AdminTests" duration-ms="4566" started-at="2014-08-06T14:46:36Z" finished-at="2014-08-06T14:46:41Z">
+      <class name="com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testgetStatus" duration-ms="299" started-at="2014-08-06T14:46:36Z" finished-at="2014-08-06T14:46:37Z">
           <params>
             <param index="0">
               <value>
@@ -1341,36 +1593,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
+                <![CDATA[true]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.AiringsTest@53b2df13]" name="testgetStatus" duration-ms="468" started-at="2014-07-28T12:38:58Z" finished-at="2014-07-28T12:38:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[es-CO]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[68337]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.AiringsTest@53b2df13]" name="testisDataEmpty_N" duration-ms="381" started-at="2014-07-28T12:38:59Z" finished-at="2014-07-28T12:38:59Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testgetStatus" duration-ms="302" started-at="2014-08-06T14:46:37Z" finished-at="2014-08-06T14:46:37Z">
           <params>
             <param index="0">
               <value>
@@ -1379,17 +1607,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
+                <![CDATA[false]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.AiringsTest@53b2df13]" name="testisDataEmpty_N" duration-ms="307" started-at="2014-07-28T12:38:59Z" finished-at="2014-07-28T12:39:00Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testgetStatus" duration-ms="290" started-at="2014-08-06T14:46:37Z" finished-at="2014-08-06T14:46:37Z">
           <params>
             <param index="0">
               <value>
@@ -1398,19 +1621,84 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[68337]]>
+                <![CDATA[true]]>
               </value>
             </param>
-            <param index="2">
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testgetStatus" duration-ms="293" started-at="2014-08-06T14:46:37Z" finished-at="2014-08-06T14:46:38Z">
+          <params>
+            <param index="0">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testisDataEmpty_N" duration-ms="310" started-at="2014-08-06T14:46:38Z" finished-at="2014-08-06T14:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testisDataEmpty_N" duration-ms="301" started-at="2014-08-06T14:46:38Z" finished-at="2014-08-06T14:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testisDataEmpty_N" duration-ms="299" started-at="2014-08-06T14:46:38Z" finished-at="2014-08-06T14:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest@4adc362d]" name="testisDataEmpty_N" duration-ms="307" started-at="2014-08-06T14:46:38Z" finished-at="2014-08-06T14:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
               </value>
             </param>
           </params>
         </test-method>
       </class>
-      <class name="com.tgxd.gtw.nameApi.test.NameTest">
-        <test-method status="PASS" signature="testServiceIDPresentInURL(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testServiceIDPresentInURL" duration-ms="911" started-at="2014-07-28T12:39:00Z" finished-at="2014-07-28T12:39:01Z">
+      <class name="com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testgetStatus" duration-ms="349" started-at="2014-08-06T14:46:39Z" finished-at="2014-08-06T14:46:39Z">
           <params>
             <param index="0">
               <value>
@@ -1419,36 +1707,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
+                <![CDATA[369]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[iphone]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testServiceIDPresentInURL(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testServiceIDPresentInURL" duration-ms="731" started-at="2014-07-28T12:39:01Z" finished-at="2014-07-28T12:39:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[es-CO]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[68337]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testgetStatus" duration-ms="691" started-at="2014-07-28T12:39:01Z" finished-at="2014-07-28T12:39:02Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testgetStatus" duration-ms="379" started-at="2014-08-06T14:46:39Z" finished-at="2014-08-06T14:46:40Z">
           <params>
             <param index="0">
               <value>
@@ -1457,17 +1726,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
+                <![CDATA[346]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[ipad]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testgetStatus" duration-ms="837" started-at="2014-07-28T12:39:02Z" finished-at="2014-07-28T12:39:03Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testgetStatus" duration-ms="356" started-at="2014-08-06T14:46:40Z" finished-at="2014-08-06T14:46:40Z">
           <params>
             <param index="0">
               <value>
@@ -1476,17 +1745,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[68337]]>
+                <![CDATA[346]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[ipad]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testisDataEmpty_N" duration-ms="687" started-at="2014-07-28T12:39:03Z" finished-at="2014-07-28T12:39:04Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testisDataEmpty_N" duration-ms="353" started-at="2014-08-06T14:46:40Z" finished-at="2014-08-06T14:46:40Z">
           <params>
             <param index="0">
               <value>
@@ -1495,17 +1764,36 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
+                <![CDATA[369]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[iphone]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.NameTest@4538353]" name="testisDataEmpty_N" duration-ms="1165" started-at="2014-07-28T12:39:04Z" finished-at="2014-07-28T12:39:05Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testisDataEmpty_N" duration-ms="354" started-at="2014-08-06T14:46:40Z" finished-at="2014-08-06T14:46:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ipad]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest@3f68eac0]" name="testisDataEmpty_N" duration-ms="368" started-at="2014-08-06T14:46:41Z" finished-at="2014-08-06T14:46:41Z">
           <params>
             <param index="0">
               <value>
@@ -1514,19 +1802,21 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[68337]]>
+                <![CDATA[346]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[ipad]]>
               </value>
             </param>
           </params>
         </test-method>
       </class>
-      <class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest">
-        <test-method status="PASS" signature="testServiceID(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testServiceID" duration-ms="702" started-at="2014-07-28T12:39:08Z" finished-at="2014-07-28T12:39:09Z">
+    </test>
+    <test name="ServiceTests" duration-ms="21058" started-at="2014-08-06T14:46:41Z" finished-at="2014-08-06T14:47:02Z">
+      <class name="com.tgxd.gtw.serviceApi.test.GetScheduleTest">
+        <test-method status="PASS" signature="testNotNullFieldsforChannel_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testNotNullFieldsforChannel_N" duration-ms="2988" started-at="2014-08-06T14:46:42Z" finished-at="2014-08-06T14:46:45Z">
           <params>
             <param index="0">
               <value>
@@ -1535,12 +1825,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
+                <![CDATA[68337]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:43Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testServiceID(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testServiceID" duration-ms="606" started-at="2014-07-28T12:39:09Z" finished-at="2014-07-28T12:39:09Z">
+        <test-method status="PASS" signature="testNotNullFieldsforChannel_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testNotNullFieldsforChannel_N" duration-ms="369" started-at="2014-08-06T14:46:45Z" finished-at="2014-08-06T14:46:45Z">
           <params>
             <param index="0">
               <value>
@@ -1549,12 +1849,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[68337]]>
+                <![CDATA[896643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:43Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testgetStatus" duration-ms="709" started-at="2014-07-28T12:39:10Z" finished-at="2014-07-28T12:39:10Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testgetStatus" duration-ms="2391" started-at="2014-08-06T14:46:45Z" finished-at="2014-08-06T14:46:48Z">
           <params>
             <param index="0">
               <value>
@@ -1563,12 +1873,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
+                <![CDATA[68337]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:47Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testgetStatus" duration-ms="773" started-at="2014-07-28T12:39:10Z" finished-at="2014-07-28T12:39:11Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testgetStatus" duration-ms="338" started-at="2014-08-06T14:46:48Z" finished-at="2014-08-06T14:46:48Z">
           <params>
             <param index="0">
               <value>
@@ -1577,12 +1897,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[68337]]>
+                <![CDATA[896643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:47Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testisDataEmpty_N" duration-ms="704" started-at="2014-07-28T12:39:11Z" finished-at="2014-07-28T12:39:12Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testisDataEmpty_N" duration-ms="4076" started-at="2014-08-06T14:46:49Z" finished-at="2014-08-06T14:46:53Z">
           <params>
             <param index="0">
               <value>
@@ -1591,12 +1921,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[75008]]>
+                <![CDATA[68337]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:50Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.GetFavouritesTest@6d2c05d]" name="testisDataEmpty_N" duration-ms="731" started-at="2014-07-28T12:39:12Z" finished-at="2014-07-28T12:39:12Z">
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetScheduleTest@439ed348]" name="testisDataEmpty_N" duration-ms="344" started-at="2014-08-06T14:46:53Z" finished-at="2014-08-06T14:46:53Z">
           <params>
             <param index="0">
               <value>
@@ -1605,37 +1945,28 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[68337]]>
+                <![CDATA[896643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:50Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
       </class>
-      <class name="com.tgxd.gtw.nameApi.test.CreditsTest">
-        <test-method status="PASS" signature="testServiceIDInURLs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testServiceIDInURLs" duration-ms="631" started-at="2014-07-28T12:39:05Z" finished-at="2014-07-28T12:39:05Z">
+      <class name="com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest">
+        <test-method status="PASS" signature="testNotNullFieldsforChannel_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testNotNullFieldsforChannel_N" duration-ms="2159" started-at="2014-08-06T14:46:54Z" finished-at="2014-08-06T14:46:56Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testServiceIDInURLs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testServiceIDInURLs" duration-ms="664" started-at="2014-07-28T12:39:05Z" finished-at="2014-07-28T12:39:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[es-CO]]>
               </value>
             </param>
             <param index="1">
@@ -1645,35 +1976,45 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[2014-08-06%2009:16:55Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testgetStatus" duration-ms="637" started-at="2014-07-28T12:39:06Z" finished-at="2014-07-28T12:39:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testgetStatus" duration-ms="473" started-at="2014-07-28T12:39:07Z" finished-at="2014-07-28T12:39:07Z">
+        <test-method status="PASS" signature="testNotNullFieldsforChannel_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testNotNullFieldsforChannel_N" duration-ms="342" started-at="2014-08-06T14:46:56Z" finished-at="2014-08-06T14:46:56Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[896643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:55Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testgetStatus" duration-ms="1933" started-at="2014-08-06T14:46:57Z" finished-at="2014-08-06T14:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
               </value>
             </param>
             <param index="1">
@@ -1683,35 +2024,45 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[2014-08-06%2009:16:58Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testisDataEmpty_N" duration-ms="430" started-at="2014-07-28T12:39:07Z" finished-at="2014-07-28T12:39:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[en-US]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[75008]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100668]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.nameApi.test.CreditsTest@412b8b27]" name="testisDataEmpty_N" duration-ms="508" started-at="2014-07-28T12:39:08Z" finished-at="2014-07-28T12:39:08Z">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testgetStatus" duration-ms="343" started-at="2014-08-06T14:46:59Z" finished-at="2014-08-06T14:46:59Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[896643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:16:58Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testisDataEmpty_N" duration-ms="2210" started-at="2014-08-06T14:47:00Z" finished-at="2014-08-06T14:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
               </value>
             </param>
             <param index="1">
@@ -1721,7 +2072,69 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[100668]]>
+                <![CDATA[2014-08-06%2009:17:01Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testisDataEmpty_N(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest@690cbe41]" name="testisDataEmpty_N" duration-ms="340" started-at="2014-08-06T14:47:02Z" finished-at="2014-08-06T14:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[896643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2014-08-06%2009:17:01Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+    <test name="AccountTests" duration-ms="3720" started-at="2014-08-06T14:47:02Z" finished-at="2014-08-06T14:47:06Z">
+      <class name="com.tgxd.gtw.accountApi.test.AccountAuthenticateTest">
+        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.accountApi.test.AccountAuthenticateTest@147e668d]" name="testgetStatus" duration-ms="2815" started-at="2014-08-06T14:47:02Z" finished-at="2014-08-06T14:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testgetStatus(java.lang.String)[pri:0, instance:com.tgxd.gtw.accountApi.test.AccountAuthenticateTest@147e668d]" name="testgetStatus" duration-ms="339" started-at="2014-08-06T14:47:05Z" finished-at="2014-08-06T14:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es-CO]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="com.tgxd.gtw.accountApi.test.AccountCreateTest">
+        <test-method status="PASS" signature="testNotNullFieldsforChannel_N(java.lang.String)[pri:0, instance:com.tgxd.gtw.accountApi.test.AccountCreateTest@5ae1a690]" name="testNotNullFieldsforChannel_N" duration-ms="564" started-at="2014-08-06T14:47:05Z" finished-at="2014-08-06T14:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en-US]]>
               </value>
             </param>
           </params>

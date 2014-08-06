@@ -1,45 +1,72 @@
 <suite name = "TGxd Test Suite" parallel="classes" thread-count="10">
   
-   	<groups>
-	<run>
-	<include name="Sanity"/>
-	</run>
-	</groups>
+  <groups>
+<run>
+<include name="Sanity"/>
+</run>
+</groups>
 
- <test name = "NameTests" > 
-     
+<!--
+<test name = "NameTests" >    
   <classes>
-   <class name="com.tgxd.gtw.nameApi.test.AiringsTest"/>
-   <class name = "com.tgxd.gtw.nameApi.test.NameTest" />
-   <class name="com.tgxd.gtw.nameApi.test.CreditsTest"/>   
-   <class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
+  	<class name="com.tgxd.gtw.nameApi.test.AiringsTest"/>
+  	<class name = "com.tgxd.gtw.nameApi.test.NameTest" />
+    <class name="com.tgxd.gtw.nameApi.test.CreditsTest"/>  
+  	<class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
   </classes> 
- </test>
- 
- <test name= "ProgramTests">
- 
- 	<classes>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
- 		<class name="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/>
- 		   
-	 </classes>
- </test>
- 
+</test>-->
+
+<test name= "ProgramTests">
+	<classes>
+		<class name="com.tgxd.gtw.programApi.test.ProgramAiringsTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramCastCrewTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramDetailsTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramGetFilteredProgramTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramSimilarTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramGetFavouriteProgramTilesTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramGetGenreListTest"/>
+		<class name="com.tgxd.gtw.programApi.test.ProgramRecommendTest"/> 
+	</classes>
+</test>
+
 <test name="ListingTests">
     <classes>
         <class name="com.tgxd.gtw.ListingsApi.test.ListingFavouriteChannelThumbnailTest"/>
         <class name="com.tgxd.gtw.ListingsApi.test.ListingServiceDetailsTest"/>
         <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLineUpsTest"/>
         <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetChannelLogoTest"/>
-        <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>
-        
+        <class name="com.tgxd.gtw.ListingsApi.test.ListingsGetServerUtcInfoTest"/>        
     </classes>
 </test>
- 
+
+<test name="SearchTests">
+<classes>
+		<class name="com.tgxd.gtw.SearchApi.test.SearchAutoSuggestTest"/>
+        <class name="com.tgxd.gtw.SearchApi.test.SearchProgramInfoTest"/>
+        <class name="com.tgxd.gtw.SearchApi.test.SearchResultsTest"/>
+</classes>
+</test>
+
+<test name="AdminTests">
+<classes>
+		<class name="com.tgxd.gtw.AdminApi.test.AdminGetAllMSOProfileTest"/>
+        <class name="com.tgxd.gtw.AdminApi.test.AdminGetMSOAppConfigTest"/>
+</classes>
+</test>
+
+<test name="ServiceTests">
+<classes>
+		<class name="com.tgxd.gtw.serviceApi.test.GetScheduleTest"/>
+        <class name="com.tgxd.gtw.serviceApi.test.GetSourceScheduleTest"/>
+</classes>
+</test>
+
+<test name="AccountTests">
+<classes>
+		<class name="com.tgxd.gtw.accountApi.test.AccountAuthenticateTest"/>
+        <class name="com.tgxd.gtw.accountApi.test.AccountCreateTest"/>
+</classes>
+</test>
+
+
 </suite>

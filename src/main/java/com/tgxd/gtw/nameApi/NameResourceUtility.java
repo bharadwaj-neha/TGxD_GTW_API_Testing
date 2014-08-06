@@ -8,7 +8,7 @@ public class NameResourceUtility {
 	public static String getNameResourceResponse(String locale,String serviceID,String celebrityID, String nameResource)
 	{ 
 		String resourceIdentifier = Constants.environment + locale + nameResource + celebrityID + Constants.provider + serviceID;
-		//System.out.println(resourceIdentifier);
+		System.out.println(resourceIdentifier);
 		return RequestResponseParserUtility.response_GET(resourceIdentifier);
 	}
 	
