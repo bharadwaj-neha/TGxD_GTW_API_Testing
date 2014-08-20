@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>foo</groupId>
-  <artifactId>mavenApp</artifactId>
+  <groupId>com.tgxd.gtw</groupId>
+  <artifactId>TGxD_GTW_API_Testing</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -27,9 +27,7 @@
         </configuration>
       </plugin>          
         </plugins>  
-  </build>
-  
-  
+  </build> 
 
   <dependencies>
    <dependency>
@@ -40,16 +38,16 @@
     </dependency>
     
     <dependency>
-<groupId>com.googlecode.json-simple</groupId>
-<artifactId>json-simple</artifactId>
-<version>1.1</version>
-</dependency>
+		<groupId>com.googlecode.json-simple</groupId>
+		<artifactId>json-simple</artifactId>
+		<version>1.1</version>
+	</dependency>
 
-  <dependency>
-<groupId>com.sun.jersey</groupId>
-<artifactId>jersey-client</artifactId>
-<version>1.18</version>
-</dependency>
+  	<dependency>
+		<groupId>com.sun.jersey</groupId>
+		<artifactId>jersey-client</artifactId>
+		<version>1.18</version>
+	</dependency>
 <!--  
   <dependency>
 	<groupId>org.uncommons</groupId>
@@ -64,33 +62,35 @@
 </dependency>
 -->
 
-<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-server</artifactId>
-	<version>2.25.0</version>
-</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-server</artifactId>
+		<version>2.25.0</version>
+	</dependency>
 
-<dependency>
-   <groupId>org.apache.poi</groupId>
-   <artifactId>poi</artifactId>
-   <version>3.9</version>
-</dependency>
-<dependency>
-   <groupId>xml-apis</groupId>
-   <artifactId>xml-apis</artifactId>
-   <version>1.4.01</version>
-</dependency>
-<dependency>
-   <groupId>org.apache.poi</groupId>
-   <artifactId>poi-ooxml</artifactId>
-   <version>3.9</version>
-   <exclusions>
-     <exclusion>
-       <artifactId>xml-apis</artifactId>
-       <groupId>xml-apis</groupId>
-     </exclusion>       
-   </exclusions>
-</dependency>
+	<dependency>
+   		<groupId>org.apache.poi</groupId>
+   		<artifactId>poi</artifactId>
+   		<version>3.9</version>
+	</dependency>
+	
+	<dependency>
+   		<groupId>xml-apis</groupId>
+   		<artifactId>xml-apis</artifactId>
+   		<version>1.4.01</version>
+	</dependency>
+	
+	<dependency>
+   		<groupId>org.apache.poi</groupId>
+   		<artifactId>poi-ooxml</artifactId>
+   		<version>3.9</version>
+   		<exclusions>
+     		<exclusion>
+       			<artifactId>xml-apis</artifactId>
+       			<groupId>xml-apis</groupId>
+     		</exclusion>       
+   		</exclusions>
+	</dependency>
 
   </dependencies>
 </project>
