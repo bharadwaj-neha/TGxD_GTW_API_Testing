@@ -6,7 +6,7 @@
 </run>
 </groups>
 
-<!--
+
 <test name = "NameTests" >    
   <classes>
   	<class name="com.tgxd.gtw.nameApi.test.AiringsTest"/>
@@ -14,7 +14,7 @@
     <class name="com.tgxd.gtw.nameApi.test.CreditsTest"/>  
   	<class name="com.tgxd.gtw.nameApi.test.GetFavouritesTest"/>
   </classes> 
-</test>-->
+</test>
 
 <test name= "ProgramTests">
 	<classes>
